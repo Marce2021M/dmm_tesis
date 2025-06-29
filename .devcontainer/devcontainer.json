@@ -1,0 +1,12 @@
+{
+  "name": "DKF-Theano",
+  "build": { "dockerfile": "Dockerfile" },
+  "settings": {
+    "python.pythonPath": "/usr/bin/python3"
+  },
+  "extensions": [
+    "ms-python.python"
+  ],
+  "forwardPorts": [],
+  "postCreateCommand": "pip3 install -r requirements.txt || true"
+}
